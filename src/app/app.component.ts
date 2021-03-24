@@ -6,8 +6,8 @@ import { Subject } from 'rxjs';
   selector: 'app-root',
   template: `
     <h1>App</h1>
-    <ng-container *rxLet="count$; let count">AppCounter: {{ count }}</ng-container>
-    <button (click)="btn$.next()">Increment</button>
+    <!-- <ng-container *rxLet="count$; let count">AppCounter: {{ count }}</ng-container>
+    <button (click)="btn$.next()">Increment</button> -->
     <router-outlet></router-outlet>
   `,
   providers: [RxState]
